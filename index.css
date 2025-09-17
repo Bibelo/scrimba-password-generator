@@ -1,3 +1,87 @@
+@font-face {
+    font-family: Karla;
+    src:url("./Karla-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Inter;
+    src:url("./Inter.ttf");
+}
+
+
 body {
     margin: 0;
+    font-family: Karla;
+    background-color: #1F2937;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+
+#action-call1 {
+    color: white;
+    margin-bottom: 5px;
+}
+    
+#action-call2 {
+    color: #4ADF86;
+    margin-top: 5px;
+}
+
+#moto {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #D5D4D8;
+}
+
+#generate-button {
+    background-color: #10B981;
+    color: white;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 24px;
+    letter-spacing: 0%;
+    height: 40px;
+    width: 190px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    border-radius: 10px;
+}
+
+hr {
+    color: #2F3E53;
+    border: 1px solid #2F3E53;
+}
+
+.generated-passwords {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#password-one,#password-two {
+    margin-left: 25px;
+    color: #55F991;
+    background-color: #273549;
+    border-radius: 5px;
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    /* leading-trim: NONE; */
+    line-height: 32px;
+    /* letter-spacing: 0%; */
+    text-align: center;
+    width: 180;
+    height: 32px;
+    /* top: 400px;
+    left: 67px;
+    angle: 0 deg;
+    opacity: 1; */
 }
